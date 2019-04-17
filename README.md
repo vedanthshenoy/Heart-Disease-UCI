@@ -1,6 +1,8 @@
 # Heart-Disease-UCI
 This project explores the heart disease dataset by UCI available on kaggle. It studies the performance of three different algorithms with manual feature selection and recursive feature elimination method.
 
+You can find the dataset [here](https://www.kaggle.com/borapajo/food-choices) or in the file in this repository named `<heart-disease-data.csv>`
+
 ## Feature Selection
 
 Any machine learning algorithm finds the dependence of the features with the output. Often we encounter situations where either the features are sparse (i.e; there are a lot of 0 or no value in most of the feature fields) or they are interdependent which means there is a strong correlation within the features. 
@@ -40,4 +42,19 @@ To know more about RFE, [This](https://towardsdatascience.com/feature-selection-
 Embedded methods are iterative in a sense that takes care of each iteration of the model training process and carefully extract those features which contribute the most to the training for a particular iteration.
 For more information on regularization aka  embedded method click [here](https://towardsdatascience.com/feature-selection-with-pandas-e3690ad8504b).
 
+## Sci-kit Methods
 
+For RFE in the code `<heart-disease-with-RFE-code.ipynb>` i have used the in-built sklearn method `<RFE(model,# of features to remain)>`. More information about this method can be found in the sklearn documentation [page](https://scikit-learn.org/stable/modules/generated/sklearn.feature_selection.RFE.html) and also find an example [here](https://scikit-learn.org/stable/auto_examples/feature_selection/plot_rfe_digits.html).
+
+For selecting from model method which was in-built method in sklearn `<SelectFromModel(model,..)>` i used the inbuilt sklearn method of the same name whose information can be found in it's documentation [page](https://scikit-learn.org/stable/modules/generated/sklearn.feature_selection.SelectFromModel.html) and an example can be found [here](https://www.programcreek.com/python/example/93976/sklearn.feature_selection.SelectFromModel).
+
+## References
+
+- https://scikit-learn.org/stable/modules/feature_selection.html
+- https://www.programcreek.com/python/example/93976/sklearn.feature_selection.SelectFromModel
+- http://fatihsarigoz.com/tag/machine_learning-feature_selection-rfe.html
+- https://machinelearningmastery.com/feature-selection-machine-learning-python/
+- https://towardsdatascience.com/feature-selection-with-pandas-e3690ad8504b
+- https://scikit-learn.org/stable/auto_examples/feature_selection/plot_rfe_digits.html
+- https://scikit-learn.org/stable/modules/generated/sklearn.feature_selection.RFE.html
+- https://scikit-learn.org/stable/modules/generated/sklearn.feature_selection.SelectFromModel.html
