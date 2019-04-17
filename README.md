@@ -1,7 +1,7 @@
 # Heart-Disease-UCI
 This project explores the heart disease dataset by UCI available on kaggle. It studies the performance of three different algorithms with manual feature selection and recursive feature elimination method.
 
-You can find the dataset [here](https://www.kaggle.com/borapajo/food-choices) or in the file in this repository named `<heart-disease-data.csv>`
+You can find the dataset [here](https://www.kaggle.com/borapajo/food-choices) or in the file in this repository named `heart-disease-data.csv`
 
 ## Feature Selection
 
@@ -44,9 +44,9 @@ For more information on regularization aka  embedded method click [here](https:/
 
 ## Sci-kit Methods
 
-For RFE in the code `<heart-disease-with-RFE-code.ipynb>` i have used the in-built sklearn method `<RFE(model,# of features to remain)>`. More information about this method can be found in the sklearn documentation [page](https://scikit-learn.org/stable/modules/generated/sklearn.feature_selection.RFE.html) and also find an example [here](https://scikit-learn.org/stable/auto_examples/feature_selection/plot_rfe_digits.html).
+For RFE in the code `heart-disease-with-RFE-code.ipynb` i have used the in-built sklearn method `RFE(model,# of features to remain)`. More information about this method can be found in the sklearn documentation [page](https://scikit-learn.org/stable/modules/generated/sklearn.feature_selection.RFE.html) and also find an example [here](https://scikit-learn.org/stable/auto_examples/feature_selection/plot_rfe_digits.html).
 
-For selecting from model method which was in-built method in sklearn `<SelectFromModel(model,..)>` i used the inbuilt sklearn method of the same name whose information can be found in it's documentation [page](https://scikit-learn.org/stable/modules/generated/sklearn.feature_selection.SelectFromModel.html) and an example can be found [here](https://www.programcreek.com/python/example/93976/sklearn.feature_selection.SelectFromModel).
+For selecting from model method which was in-built method in sklearn `SelectFromModel(model,..)` i used the inbuilt sklearn method of the same name whose information can be found in it's documentation [page](https://scikit-learn.org/stable/modules/generated/sklearn.feature_selection.SelectFromModel.html) and an example can be found [here](https://www.programcreek.com/python/example/93976/sklearn.feature_selection.SelectFromModel).
 
 ## References
 
